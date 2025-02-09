@@ -1,4 +1,11 @@
 {
   "name": "single-page-app-vanilla",
-  "packageManager": "yarn@4.6.0"
+  "type": "module",
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }

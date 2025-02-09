@@ -1,0 +1,37 @@
+body {
+  --nav-width: 200px;
+  margin: 0 0 0 var(--nav-width);
+  font-family: "Quicksand", sans-serif;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: var(--nav-width);
+  height: 100dvh;
+  background: #222;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #eee;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background: rgb(255 255 255 / 0.05);
+}
+
+#app {
+  margin: 2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+a {
+  color: #009575;
+}
